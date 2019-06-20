@@ -1,0 +1,65 @@
+@font-face
+{
+    font-family: 'Amarante';
+    src: url('font/Amarante-Regular.eot');
+    src: url('font/Amarante-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Amarante-Regular.woff2') format('woff2'),
+        url('font/Amarante-Regular.woff') format('woff'),
+        url('font/Amarante-Regular.ttf') format('truetype'),
+        url('font/Amarante-Regular.svg#Amarante-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    width: 100%;
+}
+h1, h2
+{
+    font-family: 'Amarante', sans_serif;
+}
+
+h2
+{
+	color: navy;
+}
+
+#intro
+{
+	text-align: center;
+}
+
+#moi
+{
+left: 85%;
+border: black solid 2px;
+box-shadow: 5px 5px 3px grey;
+
+}
+
+#lise
+{
+    display: none;
+}
+
+
+
+body
+{
+    background-image: url("img/fond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#bloc
+{
+    display: block;
+    
+}
+
+#b1, #b2, #b3
+{
+    width: 100%;
+}
